@@ -1,0 +1,32 @@
+/* @media screen and (max-width: 640px) {
+ .item-1 {
+    font-size: 20px;
+ }
+} */
+
+
+
+body {
+    background-color: #151937;
+    color: white;
+}
+
+.text-gradient {
+    background: linear-gradient(to right, red, blue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-gradient {
+    background: linear-gradient(to right, #ff7df2, #ff275b);
+    padding: 1rem 3rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.platform__item > div {
+    width: 100%;
+    max-width: none;
+}
